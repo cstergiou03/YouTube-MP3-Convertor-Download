@@ -43,6 +43,9 @@ window.title("MP3 Convertor")
 window.geometry("600x600") 
 window.maxsize(600, 600) 
 
+img = PhotoImage(file=r'C:\Users\cster\Desktop\Chris\Projects\Python\YouTube MP3 Convert\YouTube-MP3-Convertor-Download\icon.png')
+window.iconphoto(False, img)
+
 canvas = tk.Canvas(window, width=570, height=570)
 canvas.pack()
 
